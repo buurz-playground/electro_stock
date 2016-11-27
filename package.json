@@ -1,8 +1,27 @@
 {
-  "name"    : "your-app",
-  "version" : "0.1.0",
-  "main"    : "main.js",
-  "scripts" : {
+  "name": "electro-stock",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
     "start": "electron ."
-  }
+  },
+  "description": "Fun with electron",
+  "dependencies": {
+     "request": "^2.9.0"
+	},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buurzx/electro_stock.git"
+  },
+  "keywords": [
+    "electron",
+    "js"
+  ],
+  "author": "Pavel Ro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buurzx/electro_stock/issues"
+  },
+  "homepage": "https://github.com/buurzx/electro_stock#readme"
 }
